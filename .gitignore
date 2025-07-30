@@ -22,3 +22,30 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# Eclipse 설정 파일 무시
+.classpath
+.project
+.settings/
+
+# Eclipse 작업공간 메타데이터 무시
+../.metadata/
+**/.metadata/
+
+# 빌드 폴더 무시
+bin/
+target/
+
+# OS 관련 파일
+.DS_Store
+Thumbs.db
+
+# 로그, 백업 파일 무시
+*.log
+*.bak
+*.tmp
+
+# 기타 IDE 설정 (추가 IDE 사용 시)
+.idea/
+*.iml
+*.swp
